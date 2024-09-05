@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript basics</title>
+</head>
+
+<body>
+    <h1>Javascript basics</h1>
+    <ul>
+        <li>Spring</li>
+        <li>Summer</li>
+        <li>Fall</li>
+        <li>Winter</li>
+    </ul>
+    <script>
+       console.log(window);
+       /*
+       window.alert("Hi, this is an alert");
+       window.confirm("Hi, this is a confirm");
+       window.prompt("Hi, this is a prompt");
+       */
+
+       let a = alert("Hi, this is an alert"); //undefined
+       let c = confirm("Hi, this is a confirm");
+       let p = prompt("Hi, this is a prompt");
+
+       console.log(a);
+       console.log(c);//true  or false
+       console.log(p); //cancel === null
+    </script>
+</body>
+
+</html>
